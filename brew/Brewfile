@@ -4,36 +4,54 @@ tap "homebrew/core"
 # tap "buo/cask-upgrade"
 # tap "homebrew/cask-fonts"
 
-berw "ripgrep"
-brew "asdf"
-brew "bazelisk"
-brew "browsh"
-brew "gh"
-brew "git-extras"
-brew "git"
-brew "lazygit"
-brew "magic-wormhole"
-brew "mas"
-brew "neo4j"
-brew "neovim"
-brew "protobuf"
-brew "qmk"
-brew "ranger"
-brew "stow"
-brew "terraform"
-brew "tmux"
-brew "tokei"
+berw "ripgrep"                      # grep replacement
+brew "asdf"                         # version manager
+brew "bat"                          # cat replacement
+brew "bazelisk"                     # bazel
+brew "bottom"                       # top replacement
+brew "browsh"                       # browser
+brew "dog"                          # curl replacement
+brew "dust"                         # du replacement
+brew "exa"                          # ls replacement
+brew "fd"                           # find replacement
+brew "fzf"                          # fuzzy finder
+brew "gh"                           # github cli
+brew "git-extras"                   # git
+brew "git"                          # git
+brew "httpie"                       # curl replacement
+brew "hyperfine"                    # time replacement
+brew "lazygit"                      # git ui
+brew "magic-wormhole"               # file transfer
+brew "mas"                          # mac app store cli
+brew "neo4j"                        # graph database
+brew "neovim"                       # vim replacement
+brew "procs"                        # ps replacement
+brew "protobuf"                     # protocol buffers
+brew "qmk"                          # keyboard firmware
+brew "ranger"                       # file manager
+brew "ripgrep"                      # grep replacement
+brew "scc"                          # count lines of code
+brew "sd"                           # sed replacement
+brew "starship"                     # prompt
+brew "stow"                         # symlink manager
+brew "terraform"                    # infrastructure as code
+brew "tmux"                         # terminal multiplexer
+brew "tokei"                        # cloc replacement
+brew "xh"                           # curl replacement
+brew "zsh-autosuggestions"          # zsh plugin
+brew "zsh-completions"              # zsh plugin
+brew "zsh-syntax-highlighting"      # zsh plugin
 
-cask "1password"
-cask "bloomrpc"
-cask "docker"
+cask "1password"                    # password manager
+cask "bloomrpc"                     # grpc client
+cask "docker"                       # container manager
 cask "ferdium"
-cask "figma"
-cask "fork"
-cask "iterm2"
-cask "notion"
-cask "qmk-toolbox"
-cask "rectangle"
-cask "slack"
-cask "visual-studio-code"
-cask "vlc"
+cask "figma"                        # design
+cask "fork"                         # git ui
+cask "iterm2"                       # terminal
+cask "notion"                       # notes
+cask "qmk-toolbox"                  # keyboard firmware
+cask "rectangle"                    # window manager
+cask "slack"                        # communication
+cask "visual-studio-code"           # editor
+cask "vlc"                          # media player
