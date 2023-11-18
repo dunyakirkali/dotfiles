@@ -12,7 +12,7 @@ brew "bottom"                       # top replacement
 brew "browsh"                       # browser
 brew "dog"                          # curl replacement
 brew "dust"                         # du replacement
-brew "exa"                          # ls replacement
+brew "eza"                          # ls replacement
 brew "fd"                           # find replacement
 brew "fzf"                          # fuzzy finder
 brew "gh"                           # github cli
@@ -20,6 +20,7 @@ brew "git-extras"                   # git
 brew "git"                          # git
 brew "httpie"                       # curl replacement
 brew "hyperfine"                    # time replacement
+brew "jq"                           # json parser
 brew "lazygit"                      # git ui
 brew "magic-wormhole"               # file transfer
 brew "mas"                          # mac app store cli
@@ -38,6 +39,9 @@ brew "terraform"                    # infrastructure as code
 brew "tmux"                         # terminal multiplexer
 brew "tokei"                        # cloc replacement
 brew "xh"                           # curl replacement
+brew "yq"                           # yaml parser
+brew "zellij"                       # terminal multiplexer
+brew "zoxide"                       # zsh plugin
 brew "zsh-autosuggestions"          # zsh plugin
 brew "zsh-completions"              # zsh plugin
 brew "zsh-syntax-highlighting"      # zsh plugin
