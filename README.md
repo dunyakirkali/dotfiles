@@ -18,8 +18,3 @@ Then you can install the homebrew packages by doing
 ```sh
 brew bundle install
 ```
-
-## Applications
-
-- [neovim](https://neovim.io/)
-- [zsh](https://www.zsh.org/)
