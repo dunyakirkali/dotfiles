@@ -4,7 +4,7 @@ tap "homebrew/core"
 # tap "buo/cask-upgrade"
 # tap "homebrew/cask-fonts"
 
-berw "ripgrep"                      # grep replacement
+brew "ripgrep"                      # grep replacement
 brew "asdf"                         # version manager
 brew "bat"                          # cat replacement
 brew "bazelisk"                     # bazel
