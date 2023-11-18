@@ -2,65 +2,68 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 # tap "buo/cask-upgrade"
-# tap "homebrew/cask-fonts"
+tap "homebrew/cask-fonts"
 
-brew "ripgrep"                      # grep replacement
-brew "asdf"                         # version manager
-brew "bat"                          # cat replacement
-brew "bazelisk"                     # bazel
-brew "bottom"                       # top replacement
-brew "browsh"                       # browser
-brew "dog"                          # curl replacement
-brew "dust"                         # du replacement
-brew "eza"                          # ls replacement
-brew "fd"                           # find replacement
-brew "fzf"                          # fuzzy finder
-brew "gh"                           # github cli
-brew "git-extras"                   # git
-brew "git-lfs"                      # git-lfs
-brew "git"                          # git
-brew "gnupg"                        # gpg
-brew "grep"                         # grep
-brew "httpie"                       # curl replacement
-brew "hyperfine"                    # time replacement
-brew "jq"                           # json parser
-brew "lazygit"                      # git ui
-brew "magic-wormhole"               # file transfer
-brew "mas"                          # mac app store cli
-brew "neo4j"                        # graph database
-brew "neovim"                       # vim replacement
-brew "openssl"                      # openssl
-brew "procs"                        # ps replacement
-brew "protobuf"                     # protocol buffers
-brew "qmk"                          # keyboard firmware
-brew "ranger"                       # file manager
-brew "ripgrep"                      # grep replacement
-brew "scc"                          # count lines of code
-brew "sd"                           # sed replacement
-brew "starship"                     # prompt
-brew "stow"                         # symlink manager
-brew "terraform"                    # infrastructure as code
-brew "tmux"                         # terminal multiplexer
-brew "tokei"                        # cloc replacement
-brew "tree"                         # tree
-brew "xh"                           # curl replacement
-brew "yq"                           # yaml parser
-brew "zellij"                       # terminal multiplexer
-brew "zoxide"                       # zsh plugin
-brew "zsh-autosuggestions"          # zsh plugin
-brew "zsh-completions"              # zsh plugin
-brew "zsh-syntax-highlighting"      # zsh plugin
+brew "ripgrep"                          # grep replacement
+brew "asdf"                             # version manager
+brew "bat"                              # cat replacement
+brew "bazelisk"                         # bazel
+brew "bottom"                           # top replacement
+brew "browsh"                           # browser
+brew "dog"                              # curl replacement
+brew "dust"                             # du replacement
+brew "eza"                              # ls replacement
+brew "fd"                               # find replacement
+brew "fzf"                              # fuzzy finder
+brew "gh"                               # github cli
+brew "git-extras"                       # git
+brew "git-lfs"                          # git-lfs
+brew "git"                              # git
+brew "gnupg"                            # gpg
+brew "grep"                             # grep
+brew "httpie"                           # curl replacement
+brew "hyperfine"                        # time replacement
+brew "jq"                               # json parser
+brew "lazygit"                          # git ui
+brew "magic-wormhole"                   # file transfer
+brew "mas"                              # mac app store cli
+brew "neo4j"                            # graph database
+brew "neovim"                           # vim replacement
+brew "openssl"                          # openssl
+brew "procs"                            # ps replacement
+brew "protobuf"                         # protocol buffers
+brew "qmk"                              # keyboard firmware
+brew "ranger"                           # file manager
+brew "ripgrep"                          # grep replacement
+brew "scc"                              # count lines of code
+brew "sd"                               # sed replacement
+brew "starship"                         # prompt
+brew "stow"                             # symlink manager
+brew "terraform"                        # infrastructure as code
+brew "tmux"                             # terminal multiplexer
+brew "tokei"                            # cloc replacement
+brew "tree"                             # tree
+brew "xh"                               # curl replacement
+brew "yq"                               # yaml parser
+brew "zellij"                           # terminal multiplexer
+brew "zoxide"                           # zsh plugin
+brew "zsh-autosuggestions"              # zsh plugin
+brew "zsh-completions"                  # zsh plugin
+brew "zsh-syntax-highlighting"          # zsh plugin
 
-cask "1password"                    # password manager
-cask "bloomrpc"                     # grpc client
-cask "docker"                       # container manager
+cask "1password"                        # password manager
+cask "bloomrpc"                         # grpc client
+cask "docker"                           # container manager
 cask "ferdium"
-cask "figma"                        # design
-cask "fork"                         # git ui
-cask "iterm2"                       # terminal
-cask "notion"                       # notes
-cask "qmk-toolbox"                  # keyboard firmware
-cask "rectangle"                    # window manager
-cask "slack"                        # communication
-cask "visual-studio-code"           # editor
-cask "vlc"                          # media player
+cask "figma"                            # design
+cask "font-fira-code-nerd-font"         # font
+cask "font-jetbrains-mono-nerd-font"    # font
+cask "font-sauce-code-pro-nerd-font"    # font
+cask "fork"                             # git ui
+cask "iterm2"                           # terminal
+cask "notion"                           # notes
+cask "qmk-toolbox"                      # keyboard firmware
+cask "rectangle"                        # window manager
+cask "slack"                            # communication
+cask "visual-studio-code"               # editor
+cask "vlc"                              # media player
