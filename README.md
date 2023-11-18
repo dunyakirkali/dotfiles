@@ -13,6 +13,12 @@ cd ~/path/to/dotfiles
 stow --target=$HOME --restow */
 ```
 
+Then you can install the homebrew packages by doing
+
+```sh
+brew bundle install
+```
+
 ## Applications
 
 - [neovim](https://neovim.io/)
