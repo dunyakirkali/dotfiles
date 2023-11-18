@@ -17,7 +17,10 @@ brew "fd"                           # find replacement
 brew "fzf"                          # fuzzy finder
 brew "gh"                           # github cli
 brew "git-extras"                   # git
+brew "git-lfs"                      # git-lfs
 brew "git"                          # git
+brew "gnupg"                        # gpg
+brew "grep"                         # grep
 brew "httpie"                       # curl replacement
 brew "hyperfine"                    # time replacement
 brew "jq"                           # json parser
@@ -26,6 +29,7 @@ brew "magic-wormhole"               # file transfer
 brew "mas"                          # mac app store cli
 brew "neo4j"                        # graph database
 brew "neovim"                       # vim replacement
+brew "openssl"                      # openssl
 brew "procs"                        # ps replacement
 brew "protobuf"                     # protocol buffers
 brew "qmk"                          # keyboard firmware
@@ -38,6 +42,7 @@ brew "stow"                         # symlink manager
 brew "terraform"                    # infrastructure as code
 brew "tmux"                         # terminal multiplexer
 brew "tokei"                        # cloc replacement
+brew "tree"                         # tree
 brew "xh"                           # curl replacement
 brew "yq"                           # yaml parser
 brew "zellij"                       # terminal multiplexer
