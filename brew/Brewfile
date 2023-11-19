@@ -9,6 +9,7 @@ brew "bat"                              # cat replacement
 brew "bazelisk"                         # bazel
 brew "bottom"                           # top replacement
 brew "browsh"                           # browser
+brew "coreutils"                        # coreutils
 brew "dog"                              # curl replacement
 brew "dust"                             # du replacement
 brew "eza"                              # ls replacement
