@@ -1,4 +1,5 @@
 tap "homebrew/bundle"
+brew "dog"                              # curl replacement
 # tap "buo/cask-upgrade"
 tap "homebrew/cask-fonts"
 
@@ -49,6 +50,8 @@ brew "zoxide"                           # zsh plugin
 brew "zsh-autosuggestions"              # zsh plugin
 brew "zsh-completions"                  # zsh plugin
 brew "zsh-syntax-highlighting"          # zsh plugin
+brew "git-svn"
+brew "subversion"
 
 cask "1password"                        # password manager
 cask "alacritty"                        # terminal
@@ -68,3 +71,4 @@ cask "slack"                            # communication
 cask "sloth"                            # network monitor
 cask "visual-studio-code"               # editor
 cask "vlc"                              # media player
+
