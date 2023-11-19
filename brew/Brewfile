@@ -21,6 +21,7 @@ brew "git"                              # git
 brew "gnupg"                            # gpg
 brew "grep"                             # grep
 brew "httpie"                           # curl replacement
+brew "htop"															# top replacement
 brew "hyperfine"                        # time replacement
 brew "jq"                               # json parser
 brew "lazygit"                          # git ui
@@ -53,6 +54,7 @@ brew "zsh-syntax-highlighting"          # zsh plugin
 brew "git-svn"
 brew "subversion"
 
+cask "arc"															# browser
 cask "1password"                        # password manager
 cask "alacritty"                        # terminal
 cask "bloomrpc"                         # grpc client
@@ -71,4 +73,6 @@ cask "slack"                            # communication
 cask "sloth"                            # network monitor
 cask "visual-studio-code"               # editor
 cask "vlc"                              # media player
-
+cask "raycast"													# spotlight alternative
+cask "telegram"													# telegram client
+cask "whatsapp"													# whatsapp client
