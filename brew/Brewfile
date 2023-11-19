@@ -50,15 +50,14 @@ brew "zoxide"                           # zsh plugin
 brew "zsh-autosuggestions"              # zsh plugin
 brew "zsh-completions"                  # zsh plugin
 brew "zsh-syntax-highlighting"          # zsh plugin
-brew "git-svn"
-brew "subversion"
+brew "git-svn"													# git svn
+brew "subversion"												# subversion
 
 cask "arc"															# browser
 cask "1password"                        # password manager
 cask "alacritty"                        # terminal
 cask "bloomrpc"                         # grpc client
 cask "docker"                           # container manager
-cask "ferdium"
 cask "figma"                            # design
 cask "font-fira-code-nerd-font"         # font
 cask "font-jetbrains-mono-nerd-font"    # font
