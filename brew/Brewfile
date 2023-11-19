@@ -4,7 +4,7 @@ tap "homebrew/core"
 # tap "buo/cask-upgrade"
 tap "homebrew/cask-fonts"
 
-brew "ripgrep"                          # grep replacement
+brew "alacritty"                        # terminal
 brew "asdf"                             # version manager
 brew "bat"                              # cat replacement
 brew "bazelisk"                         # bazel
@@ -34,6 +34,7 @@ brew "procs"                            # ps replacement
 brew "protobuf"                         # protocol buffers
 brew "qmk"                              # keyboard firmware
 brew "ranger"                           # file manager
+brew "ripgrep"                          # grep replacement
 brew "ripgrep"                          # grep replacement
 brew "scc"                              # count lines of code
 brew "sd"                               # sed replacement
