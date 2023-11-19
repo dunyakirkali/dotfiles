@@ -4,7 +4,6 @@ tap "homebrew/core"
 # tap "buo/cask-upgrade"
 tap "homebrew/cask-fonts"
 
-brew "alacritty"                        # terminal
 brew "asdf"                             # version manager
 brew "bat"                              # cat replacement
 brew "bazelisk"                         # bazel
@@ -52,6 +51,7 @@ brew "zsh-autosuggestions"              # zsh plugin
 brew "zsh-completions"                  # zsh plugin
 brew "zsh-syntax-highlighting"          # zsh plugin
 
+cask "alacritty"                        # terminal
 cask "1password"                        # password manager
 cask "bloomrpc"                         # grpc client
 cask "docker"                           # container manager
