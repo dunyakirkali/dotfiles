@@ -1,6 +1,4 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 # tap "buo/cask-upgrade"
 tap "homebrew/cask-fonts"
 
@@ -11,7 +9,6 @@ brew "bottom"                           # top replacement
 brew "browsh"                           # browser
 brew "coreutils"                        # coreutils
 brew "direnv"                           # env management
-brew "dog"                              # curl replacement
 brew "dust"                             # du replacement
 brew "eza"                              # ls replacement
 brew "fd"                               # find replacement
