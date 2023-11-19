@@ -52,8 +52,8 @@ brew "zsh-autosuggestions"              # zsh plugin
 brew "zsh-completions"                  # zsh plugin
 brew "zsh-syntax-highlighting"          # zsh plugin
 
-cask "alacritty"                        # terminal
 cask "1password"                        # password manager
+cask "alacritty"                        # terminal
 cask "bloomrpc"                         # grpc client
 cask "docker"                           # container manager
 cask "ferdium"
@@ -67,5 +67,6 @@ cask "notion"                           # notes
 cask "qmk-toolbox"                      # keyboard firmware
 cask "rectangle"                        # window manager
 cask "slack"                            # communication
+cask "sloth"                            # network monitor
 cask "visual-studio-code"               # editor
 cask "vlc"                              # media player
