@@ -1,3 +1,7 @@
+# Options
+cask_args appdir: '~/Applications', require_sha: true
+
+# Taps
 tap "homebrew/bundle"
 tap "buo/cask-upgrade"
 tap "homebrew/cask-fonts"
@@ -34,7 +38,6 @@ brew "protobuf"                         # protocol buffers
 brew "qmk"                              # keyboard firmware
 brew "ranger"                           # file manager
 brew "ripgrep"                          # grep replacement
-brew "ripgrep"                          # grep replacement
 brew "scc"                              # count lines of code
 brew "sd"                               # sed replacement
 brew "starship"                         # prompt
@@ -52,6 +55,7 @@ brew "zsh-completions"                  # zsh plugin
 brew "zsh-syntax-highlighting"          # zsh plugin
 brew "git-svn"													# git svn
 brew "subversion"												# subversion
+brew "tldr"															# man replacement
 
 cask "arc"															# browser
 cask "1password"                        # password manager
