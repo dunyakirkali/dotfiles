@@ -1,3 +1,9 @@
+# tmux
+# if [ -z "$TMUX" ]
+# then
+#   tmux attach -t booking || tmux new -s booking
+# fi
+
 . /opt/homebrew/opt/asdf/libexec/asdf.sh    			# asdf
 
 eval "$(zoxide init zsh)"                   			# zoxide
