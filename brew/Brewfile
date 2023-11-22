@@ -18,19 +18,21 @@ brew "eza"                              # ls replacement
 brew "fd"                               # find replacement
 brew "fzf"                              # fuzzy finder
 brew "gh"                               # github cli
+brew "git"                              # git
 brew "git-extras"                       # git
 brew "git-lfs"                          # git-lfs
-brew "git"                              # git
+brew "git-svn"													# git svn
 brew "gnupg"                            # gpg
 brew "grep"                             # grep
-brew "httpie"                           # curl replacement
 brew "htop"															# top replacement
+brew "httpie"                           # curl replacement
 brew "hyperfine"                        # time replacement
 brew "jq"                               # json parser
 brew "lazygit"                          # git ui
 brew "magic-wormhole"                   # file transfer
 brew "mas"                              # mac app store cli
 brew "neo4j"                            # graph database
+brew "neofetch"													# system information
 brew "neovim"                           # vim replacement
 brew "openssl"                          # openssl
 brew "procs"                            # ps replacement
@@ -42,7 +44,9 @@ brew "scc"                              # count lines of code
 brew "sd"                               # sed replacement
 brew "starship"                         # prompt
 brew "stow"                             # symlink manager
+brew "subversion"												# subversion
 brew "terraform"                        # infrastructure as code
+brew "tldr"															# man replacement
 brew "tmux"                             # terminal multiplexer
 brew "tokei"                            # cloc replacement
 brew "tree"                             # tree
@@ -53,9 +57,6 @@ brew "zoxide"                           # zsh plugin
 brew "zsh-autosuggestions"              # zsh plugin
 brew "zsh-completions"                  # zsh plugin
 brew "zsh-syntax-highlighting"          # zsh plugin
-brew "git-svn"													# git svn
-brew "subversion"												# subversion
-brew "tldr"															# man replacement
 
 cask "arc"															# browser
 cask "1password"                        # password manager
