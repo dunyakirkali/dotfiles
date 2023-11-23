@@ -56,6 +56,7 @@ brew "zellij"                           # terminal multiplexer
 brew "zoxide"                           # zsh plugin
 brew "zsh-autosuggestions"              # zsh plugin
 brew "zsh-completions"                  # zsh plugin
+brew "zsh-history"											# zsh plugin
 brew "zsh-syntax-highlighting"          # zsh plugin
 
 cask "arc"															# browser
