@@ -76,6 +76,5 @@ cask "slack"                            # communication
 cask "sloth"                            # network monitor
 cask "visual-studio-code"               # editor
 cask "vlc"                              # media player
-cask "raycast"													# spotlight alternative
 cask "telegram"													# telegram client
 cask "whatsapp"													# whatsapp client
