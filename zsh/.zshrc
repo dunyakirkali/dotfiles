@@ -29,7 +29,7 @@ autoload -U compinit && compinit
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 
 # VIM Mode
-bindkey -v
+# bindkey -v
 
 # Partial search up arrow
 autoload -U up-line-or-beginning-search
