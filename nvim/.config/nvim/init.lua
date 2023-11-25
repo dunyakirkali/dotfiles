@@ -35,8 +35,6 @@ require('lazy').setup({
   'github/copilot.vim',
   'nvim-lua/plenary.nvim',
   'ThePrimeagen/harpoon',
-  'ptzz/lf.vim',
-  'voldikss/vim-floaterm',
 
   -- Detect tabstop and shiftwidth automatically
   'tpope/vim-sleuth',
@@ -239,9 +237,6 @@ vim.o.termguicolors = true
 
 -- [[ Basic Keymaps ]]
 
-vim.g.lf_command_override = 'lf -command "set hidden"'
-vim.g.lf_replace_netrw = 1
-
 -- Keymaps for better default experience
 -- See `:help vim.keymap.set()`
 vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
@@ -270,11 +265,6 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 -- [[ Configure Telescope ]]
 -- See `:help telescope` and `:help telescope.setup()`
 require('telescope').setup {
-  pickers = {
-    find_files = {
-      hidden = true
-    }
-  },
   defaults = {
     mappings = {
       i = {
