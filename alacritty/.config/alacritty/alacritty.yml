@@ -48,3 +48,24 @@ key_bindings:
   - { key: Q,      mods: Command,         action: Quit             }
   - { key: W,      mods: Command,         action: Quit             }
   - { key: F,      mods: Command|Control, action: ToggleFullscreen }
+  - { key: T,			 mods: Command,         chars: "\x02\x63" }
+  - { key: G,      mods: Command,         chars: "\x02g" } # open git manager 'jesseduffield/lazygit'
+  - { key: W,      mods: Command,         chars: "\x02x" } # kill the current pane
+  - { key: Z,      mods: Command,         chars: "\x02z" } # toggle zoom state of the current tmux pane
+  - { key: Tab, mods: Control, chars: "\x02n" } # switch to next tmux window
+  - { key: Grave, mods: Control, chars: "\x02p" } # switch to previous tmux window
+  - { key: Comma, mods: Command, chars: "\x02," } # rename the current tmux window
+  - { key: LBracket, mods: Command, chars: "\x0f" } # navigate back in vim (ctrl+o)
+  - { key: LBracket, mods: Command|Shift, chars: "\x02p" } # switch to next tmux window
+  - { key: RBracket, mods: Command, chars: "\x09" } # navigate forward in vim (ctrl+i)
+  - { key: RBracket, mods: Command|Shift, chars: "\x02n" } # switch to previous tmux window
+  - { key: Semicolon, mods: Command, chars: "\x02:" } # enter the tmux command prompt
+  - { key: Key1, mods: Command, chars: "\x021" } # select tmux window 1
+  - { key: Key2, mods: Command, chars: "\x022" } #                ... 2
+  - { key: Key3, mods: Command, chars: "\x023" } #                ... 3
+  - { key: Key4, mods: Command, chars: "\x024" } #                ... 4
+  - { key: Key5, mods: Command, chars: "\x025" } #                ... 5
+  - { key: Key6, mods: Command, chars: "\x026" } #                ... 6
+  - { key: Key7, mods: Command, chars: "\x027" } #                ... 7
+  - { key: Key8, mods: Command, chars: "\x028" } #                ... 8
+  - { key: Key9, mods: Command, chars: "\x029" } #                ... 9
