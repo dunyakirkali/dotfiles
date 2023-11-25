@@ -26,6 +26,6 @@ source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring
  # End Nix
 
 # Aliasses
-alias ls="exa"
-alias ll="exa -alh"
-alias tree="exa --tree"
+alias ls="eza"
+alias ll="eza -alh"
+alias tree="eza --tree"
