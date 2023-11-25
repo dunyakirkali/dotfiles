@@ -1,8 +1,8 @@
 # tmux
-# if [ -z "$TMUX" ]
-# then
-#   tmux attach -t booking || tmux new -s booking
-# fi
+if [ -z "$TMUX" ]
+then
+  tmux attach -t booking || tmux new -s booking
+fi
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh    			# asdf
 
@@ -10,6 +10,8 @@ eval "$(zoxide init zsh)"                   			# zoxide
 eval "$(direnv hook zsh)"                   			# direnv
 eval "$(starship init zsh)"                 			# starship
 # eval "$(zellij setup --generate-auto-start zsh)"	# zellij
+
+export EDITOR=nvim
 
 # No duplicate history when reverse-searching my commands
 HISTSIZE=5000
