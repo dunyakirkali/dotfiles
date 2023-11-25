@@ -29,3 +29,5 @@ source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring
 alias ls="eza"
 alias ll="eza -alh"
 alias tree="eza --tree"
+alias cd="z"
+alias zz="z -"
