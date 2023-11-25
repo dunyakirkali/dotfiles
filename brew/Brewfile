@@ -49,7 +49,6 @@ brew "terraform"                        # infrastructure as code
 brew "tldr"															# man replacement
 brew "tmux"                             # terminal multiplexer
 brew "tokei"                            # cloc replacement
-brew "tree"                             # tree
 brew "xh"                               # curl replacement
 brew "yq"                               # yaml parser
 brew "zellij"                           # terminal multiplexer
