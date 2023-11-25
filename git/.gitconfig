@@ -1,0 +1,14 @@
+[user]
+	name = Dunya Kirkali
+	email = dunyakirkali@gmail.com
+[color]
+	ui = auto
+[merge]
+	conflictstyle = diff3
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[pull]
+  rebase = false
