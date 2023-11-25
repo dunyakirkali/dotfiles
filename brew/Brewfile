@@ -58,6 +58,7 @@ brew "zsh-autosuggestions"              # zsh plugin
 brew "zsh-completions"                  # zsh plugin
 brew "zsh-syntax-highlighting"          # zsh plugin
 brew "yabai"
+brew "lf"
 
 cask "arc"															# browser
 cask "1password"                        # password manager
