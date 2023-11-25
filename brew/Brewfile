@@ -10,7 +10,7 @@ brew "asdf"                             # version manager
 brew "bat"                              # cat replacement
 brew "bazelisk"                         # bazel
 brew "bottom"                           # top replacement
-brew "browsh"                           # browser
+# brew "browsh"                           # browser
 brew "coreutils"                        # coreutils
 brew "direnv"                           # env management
 brew "dust"                             # du replacement
