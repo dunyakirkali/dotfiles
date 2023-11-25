@@ -24,3 +24,8 @@ source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring
     . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
  fi
  # End Nix
+
+# Aliasses
+alias ls="exa"
+alias ll="exa -alh"
+alias tree="exa --tree"
