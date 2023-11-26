@@ -236,6 +236,7 @@ vim.o.completeopt = 'menuone,noselect'
 vim.o.termguicolors = true
 
 -- [[ Basic Keymaps ]]
+vim.keymap.set({'n', 'i'}, '<c-b>', '<Esc>:Lex<cr>:vertical resize 30<cr>')
 
 -- Keymaps for better default experience
 -- See `:help vim.keymap.set()`
