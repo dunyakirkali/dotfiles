@@ -1,8 +1,8 @@
 # tmux
-if [ -z "$TMUX" ]
-then
-  tmux attach || tmux new
-fi
+# if [ -z "$TMUX" ]
+# then
+#   tmux attach || tmux new
+# fi
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh    			# asdf
 
