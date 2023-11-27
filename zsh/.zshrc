@@ -1,29 +1,21 @@
-# tmux
-# if [ -z "$TMUX" ]
-# then
-#   tmux attach || tmux new
-# fi
+# Path to your oh-my-zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
 
-. /opt/homebrew/opt/asdf/libexec/asdf.sh    			# asdf
+plugins=(git asdf brew direnv fzf ripgrep zoxide starship)
 
-eval "$(zoxide init zsh)"                   			# zoxide
-eval "$(direnv hook zsh)"                   			# direnv
-eval "$(starship init zsh)"                 			# starship
-# eval "$(zellij setup --generate-auto-start zsh)"	# zellij
+source $ZSH/oh-my-zsh.sh
 
-export EDITOR=nvim
+# User configuration
 
-# VIM Mode
-bindkey -v
+# You may need to manually set your language environment
+export LANG=en_US.UTF-8
 
-# History
-source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
-
-# Nix
- if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
-    . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
- fi
- # End Nix
+# Preferred editor for local and remote sessions
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='nvim'
+fi
 
 # Aliasses
 alias ls="eza"
@@ -31,3 +23,8 @@ alias ll="eza -alh"
 alias tree="eza --tree"
 alias cd="z"
 alias zz="z -"
+
+# Nix
+ if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
+    . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
+ fi
