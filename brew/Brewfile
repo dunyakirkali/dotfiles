@@ -10,7 +10,7 @@ brew "asdf"                             # version manager
 brew "bat"                              # cat replacement
 brew "bazelisk"                         # bazel
 brew "bottom"                           # top replacement
-# brew "browsh"                           # browser
+brew "carbonyl"													# browser
 brew "coreutils"                        # coreutils
 brew "direnv"                           # env management
 brew "dust"                             # du replacement
@@ -38,7 +38,6 @@ brew "openssl"                          # openssl
 brew "procs"                            # ps replacement
 brew "protobuf"                         # protocol buffers
 brew "qmk"                              # keyboard firmware
-brew "ranger"                           # file manager
 brew "ripgrep"                          # grep replacement
 brew "scc"                              # count lines of code
 brew "sd"                               # sed replacement
@@ -57,7 +56,6 @@ brew "zsh-autosuggestions"              # zsh plugin
 brew "zsh-completions"                  # zsh plugin
 brew "zsh-history-substring-search"			# zsh plugin
 brew "zsh-syntax-highlighting"          # zsh plugin
-brew "yabai"
 brew "lf"
 
 cask "arc"															# browser
@@ -80,3 +78,5 @@ cask "visual-studio-code"               # editor
 cask "vlc"                              # media player
 cask "telegram"													# telegram client
 cask "whatsapp"													# whatsapp client
+cask "raycast"
+
