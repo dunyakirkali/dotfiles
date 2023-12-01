@@ -11,3 +11,23 @@ trim_trailing_whitespace = true
 [*.java]
 indent_size = 4
 
+[*.pl]
+indent_size = 4
+indent_style = space
+
+[*.t]
+indent_size = 4
+indent_style = space
+
+[*.md]
+indent_size = 2
+indent_style = space
+
+[*.ex]
+indent_size = 2
+indent_style = space
+
+[*.exs]
+indent_size = 2
+indent_style = space
+
