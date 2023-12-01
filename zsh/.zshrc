@@ -18,7 +18,7 @@ else
 fi
 
 # Aliasses
-alias ls="eza"
+alias ls="eza -a --icons --no-user --no-time"
 alias ll="eza -alh"
 alias tree="eza --tree"
 alias cd="z"
