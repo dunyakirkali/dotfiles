@@ -24,6 +24,8 @@ alias tree="eza --tree"
 alias cd="z"
 alias zz="z -"
 
+alias m="mix test --trace"
+
 # Nix
  if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
     . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
