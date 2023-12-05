@@ -24,7 +24,8 @@ alias tree="eza --tree"
 alias cd="z"
 alias zz="z -"
 
-alias m="mix test --trace"
+alias mt="mix test --trace"
+alias mf="mix format"
 alias lg="lazygit"
 
 # Nix
