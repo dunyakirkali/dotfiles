@@ -23,7 +23,7 @@ alias ll="eza -alh"
 alias tree="eza --tree"
 alias cd="z"
 alias zz="z -"
-
+alias cat="bat"
 alias mt="mix test --trace"
 alias mf="mix format"
 alias lg="lazygit"
