@@ -1,5 +1,3 @@
 return {
-  {
-    "tpope/vim-eunuch",
-  },
+	"tpope/vim-eunuch",
 }
