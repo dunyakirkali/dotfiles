@@ -23,10 +23,11 @@ alias ll="eza -alh"
 alias tree="eza --tree"
 alias cd="z"
 alias zz="z -"
-alias cat="bat"
+alias cat="bat --plain --wrap character"
 alias mt="mix test --trace"
 alias mf="mix format"
 alias lg="lazygit"
+alias vim="nvim"
 
 # Nix
  if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
