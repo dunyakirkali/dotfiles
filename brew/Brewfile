@@ -71,7 +71,6 @@ cask "fork"                             # git ui
 cask "iterm2"                           # terminal
 cask "notion"                           # notes
 cask "qmk-toolbox"                      # keyboard firmware
-cask "rectangle"                        # window manager
 cask "slack"                            # communication
 cask "sloth"                            # network monitor
 cask "visual-studio-code"               # editor
