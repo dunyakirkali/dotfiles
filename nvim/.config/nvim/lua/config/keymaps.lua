@@ -11,16 +11,16 @@ vim.keymap.set("n", "<leader>a", mark.add_file, { desc = "Harpoon" })
 vim.keymap.set("n", "<C-e>", ui.toggle_quick_menu, { desc = "Harpoons" })
 
 vim.keymap.set("n", "<C-h>", function()
-  ui.nav_file(1)
+	ui.nav_file(1)
 end)
 vim.keymap.set("n", "<C-j>", function()
-  ui.nav_file(2)
+	ui.nav_file(2)
 end)
 vim.keymap.set("n", "<C-k>", function()
-  ui.nav_file(3)
+	ui.nav_file(3)
 end)
 vim.keymap.set("n", "<C-l>", function()
-  ui.nav_file(4)
+	ui.nav_file(4)
 end)
 
 -- Which Key
@@ -28,5 +28,10 @@ end)
 local wk = require("which-key")
 
 wk.register({
-  ["gww"] = { "gw", "Re-wrap" },
+	["gww"] = { "gw", "Re-wrap" },
 })
+
+-- Window
+
+vim.keymap.set("n", "<C-w>[", "<C-w>h")
+vim.keymap.set("n", "<C-w>]", "<C-w>l")
