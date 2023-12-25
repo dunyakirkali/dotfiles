@@ -6,5 +6,7 @@ return {
 		opts = {
 			colorscheme = "catppuccin-mocha",
 		},
+		lazy = false,
+		priority = 1000,
 	},
 }
