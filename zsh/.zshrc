@@ -34,3 +34,5 @@ alias vim="nvim"
     . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
  fi
 export PATH="/opt/homebrew/bin:$PATH"
+
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
