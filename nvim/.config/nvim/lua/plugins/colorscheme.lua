@@ -1,6 +1,8 @@
 return {
 	{
 		"catppuccin/nvim",
+		lazy = false,
+		priority = 1000,
 		opts = {
 			transparent_background = true,
 			integrations = {
@@ -20,6 +22,11 @@ return {
 				which_key = true,
 			},
 		},
+		config = function(_, opts)
+			require("catppuccin").setup(opts)
+			require("catppuccin").load()
+			vim.cmd("colorscheme catppuccin")
+		end,
 	},
 
 	{
@@ -27,7 +34,5 @@ return {
 		opts = {
 			colorscheme = "catppuccin-mocha",
 		},
-		lazy = false,
-		priority = 1000,
 	},
 }
