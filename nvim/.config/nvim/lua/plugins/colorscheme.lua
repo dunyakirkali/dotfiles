@@ -15,6 +15,9 @@ return {
 				telescope = {
 					enabled = true,
 				},
+				harpoon = true,
+				treesitter_context = true,
+				which_key = true,
 			},
 		},
 	},
