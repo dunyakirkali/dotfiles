@@ -23,13 +23,18 @@ alias ll="eza -alh"
 alias tree="eza --tree"
 alias cd="z"
 alias zz="z -"
-
-alias m="mix test --trace"
+alias cat="bat --plain --wrap character"
+alias mt="mix test --trace"
+alias mf="mix format"
 alias lg="lazygit"
+alias vim="nvim"
 
 # Nix
  if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
     . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
  fi
 
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+ . /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+ export PATH="/opt/homebrew/bin:$PATH"
+
