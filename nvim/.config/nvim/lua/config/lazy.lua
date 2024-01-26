@@ -11,7 +11,6 @@ require("lazy").setup({
 		{ "LazyVim/LazyVim", import = "lazyvim.plugins" },
 
 		-- ui
-		{ import = "lazyvim.plugins.extras.ui.alpha" },
 
 		-- extras
 		{ import = "lazyvim.plugins.extras.lang.elixir" },
