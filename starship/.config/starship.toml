@@ -1,2 +1,4 @@
+command_timeout = 5000
+
 [battery]
 disabled = true
