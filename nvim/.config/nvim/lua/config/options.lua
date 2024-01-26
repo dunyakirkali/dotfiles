@@ -4,4 +4,5 @@
 
 vim.opt.spelllang = "en_us"
 vim.opt.spell = true
--- vim.opt.virtualedit = "all"
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
