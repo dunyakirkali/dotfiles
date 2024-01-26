@@ -4,4 +4,5 @@ return {
 		timeout = 200,
 		background_colour = "#000000",
 	},
+	enabled = false,
 }
