@@ -53,7 +53,8 @@ key_bindings:
   - { key: Key0, mods: Command, action: ResetFontSize }
   - { key: Equals, mods: Command, action: IncreaseFontSize }
   - { key: Minus, mods: Command, action: DecreaseFontSize }
-  - { key: K, mods: Command, chars: "\x0b" }
+  - { key: K, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "clear"] } }
+  - { key: F, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "search"] } }
   - { key: LBracket, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "go-to-previous-tab"] } }
   - { key: RBracket, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "go-to-next-tab"] } }
   - { key: LBracket, mods: Alt, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "focus-previous-pane"] } }
