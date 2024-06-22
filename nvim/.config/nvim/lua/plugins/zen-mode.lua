@@ -4,5 +4,6 @@ return {
 		window = {
 			width = 90,
 		},
+		number = false,
 	},
 }
