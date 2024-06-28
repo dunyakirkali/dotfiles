@@ -60,6 +60,7 @@ key_bindings:
   - { key: LBracket, mods: Alt, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "focus-previous-pane"] } }
   - { key: RBracket, mods: Alt, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "focus-next-pane"] } }
   - { key: T, mods: Alt, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "new-pane"] } }
+  - { key: D, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "new-pane"] } }
   - { key: W, mods: Alt, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "close-pane"] } }
   - { key: T, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action","new-tab"] } }
   - { key: W, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "close-tab"] } }
