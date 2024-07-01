@@ -53,27 +53,156 @@ key_bindings:
   - { key: Key0, mods: Command, action: ResetFontSize }
   - { key: Equals, mods: Command, action: IncreaseFontSize }
   - { key: Minus, mods: Command, action: DecreaseFontSize }
-  - { key: K, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "clear"] } }
-  - { key: F, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "search"] } }
-  - { key: LBracket, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "go-to-previous-tab"] } }
-  - { key: RBracket, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "go-to-next-tab"] } }
-  - { key: LBracket, mods: Alt, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "focus-previous-pane"] } }
-  - { key: RBracket, mods: Alt, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "focus-next-pane"] } }
-  - { key: T, mods: Alt, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "new-pane"] } }
-  - { key: D, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "new-pane"] } }
-  - { key: W, mods: Alt, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "close-pane"] } }
-  - { key: T, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action","new-tab"] } }
-  - { key: W, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "close-tab"] } }
-  - { key: Key1, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "go-to-tab", "1"] } }
-  - { key: Key2, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "go-to-tab", "2"] } }
-  - { key: Key3, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "go-to-tab", "3"] } }
-  - { key: Key4, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "go-to-tab", "4"] } }
-  - { key: Key5, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "go-to-tab", "5"] } }
-  - { key: Key6, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "go-to-tab", "6"] } }
-  - { key: Key7, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "go-to-tab", "7"] } }
-  - { key: Key8, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "go-to-tab", "8"] } }
-  - { key: Key9, mods: Command, command: { program: "/opt/homebrew/bin/zellij", args: ["action", "go-to-tab", "9"] } }
+  - {
+      key: K,
+      mods: Command,
+      command:
+        { program: "/opt/homebrew/bin/zellij", args: ["action", "clear"] },
+    }
+  - {
+      key: F,
+      mods: Command,
+      command:
+        { program: "/opt/homebrew/bin/zellij", args: ["action", "search"] },
+    }
+  - {
+      key: LBracket,
+      mods: Command,
+      command:
+        {
+          program: "/opt/homebrew/bin/zellij",
+          args: ["action", "focus-previous-pane"],
+        },
+    }
+  - {
+      key: RBracket,
+      mods: Command,
+      command:
+        {
+          program: "/opt/homebrew/bin/zellij",
+          args: ["action", "focus-next-pane"],
+        },
+    }
+  - {
+      key: T,
+      mods: Alt,
+      command:
+        { program: "/opt/homebrew/bin/zellij", args: ["action", "new-pane"] },
+    }
+  - {
+      key: D,
+      mods: Command,
+      command:
+        { program: "/opt/homebrew/bin/zellij", args: ["action", "new-pane"] },
+    }
+  - {
+      key: W,
+      mods: Alt,
+      command:
+        { program: "/opt/homebrew/bin/zellij", args: ["action", "close-pane"] },
+    }
+  - {
+      key: Return,
+      mods: Command|Shift,
+      command:
+        {
+          program: "/opt/homebrew/bin/zellij",
+          args: ["action", "toggle-fullscreen"],
+        },
+    }
+  - {
+      key: T,
+      mods: Command,
+      command:
+        { program: "/opt/homebrew/bin/zellij", args: ["action", "new-tab"] },
+    }
+  - {
+      key: W,
+      mods: Command,
+      command:
+        { program: "/opt/homebrew/bin/zellij", args: ["action", "close-pane"] },
+    }
+  - {
+      key: Key1,
+      mods: Command,
+      command:
+        {
+          program: "/opt/homebrew/bin/zellij",
+          args: ["action", "go-to-tab", "1"],
+        },
+    }
+  - {
+      key: Key2,
+      mods: Command,
+      command:
+        {
+          program: "/opt/homebrew/bin/zellij",
+          args: ["action", "go-to-tab", "2"],
+        },
+    }
+  - {
+      key: Key3,
+      mods: Command,
+      command:
+        {
+          program: "/opt/homebrew/bin/zellij",
+          args: ["action", "go-to-tab", "3"],
+        },
+    }
+  - {
+      key: Key4,
+      mods: Command,
+      command:
+        {
+          program: "/opt/homebrew/bin/zellij",
+          args: ["action", "go-to-tab", "4"],
+        },
+    }
+  - {
+      key: Key5,
+      mods: Command,
+      command:
+        {
+          program: "/opt/homebrew/bin/zellij",
+          args: ["action", "go-to-tab", "5"],
+        },
+    }
+  - {
+      key: Key6,
+      mods: Command,
+      command:
+        {
+          program: "/opt/homebrew/bin/zellij",
+          args: ["action", "go-to-tab", "6"],
+        },
+    }
+  - {
+      key: Key7,
+      mods: Command,
+      command:
+        {
+          program: "/opt/homebrew/bin/zellij",
+          args: ["action", "go-to-tab", "7"],
+        },
+    }
+  - {
+      key: Key8,
+      mods: Command,
+      command:
+        {
+          program: "/opt/homebrew/bin/zellij",
+          args: ["action", "go-to-tab", "8"],
+        },
+    }
+  - {
+      key: Key9,
+      mods: Command,
+      command:
+        {
+          program: "/opt/homebrew/bin/zellij",
+          args: ["action", "go-to-tab", "9"],
+        },
+    }
 shell:
   program: /opt/homebrew/bin/zellij
   args: ["a", "dTerm"]
-
