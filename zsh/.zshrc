@@ -39,3 +39,4 @@ alias vim="nvim"
  export PATH="/opt/homebrew/bin:$PATH"
 
 source <(fzf --zsh)
+eval "$(atuin init zsh)"
