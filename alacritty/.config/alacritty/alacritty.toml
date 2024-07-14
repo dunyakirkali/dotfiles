@@ -227,8 +227,8 @@ x = 0
 y = 0
 
 [font]
-normal = { family = "FiraCode Nerd Font Mono", style = "Regular" }
-bold = { family = "FiraCode Nerd Font Mono", style = "Bold" }
-italic = { family = "FiraCode Nerd Font Mono", style = "Italic" }
-bold_italic = { family = "FiraCode Nerd Font Mono", style = "Bold Italic" }
+normal = { family = "CartographCF Nerd Font", style = "Regular" }
+bold = { family = "CartographCF Nerd Font", style = "Bold" }
+italic = { family = "CartographCF Nerd Font", style = "Italic" }
+bold_italic = { family = "CartographCF Nerd Font", style = "Bold Italic" }
 size = 20.0
