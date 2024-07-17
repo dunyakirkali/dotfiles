@@ -1,7 +1,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-plugins=(git asdf brew direnv fzf zoxide starship)
+plugins=(git asdf brew direnv fzf zoxide starship dotenv)
 
 source $ZSH/oh-my-zsh.sh
 
