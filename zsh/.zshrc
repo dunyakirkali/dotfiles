@@ -36,7 +36,8 @@ alias vim="nvim"
 
  . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
- export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/opt/homebrew/bin:$PATH"
+export TERM_PROGRAM="/opt/homebrew/bin/alacritty"
 
 source <(fzf --zsh)
 eval "$(atuin init zsh)"
