@@ -1,8 +1,8 @@
 import = [
-  # "~/.config/alacritty/catppuccin/catppuccin-latte.toml"
-  # "~/.config/alacritty/catppuccin/catppuccin-frappe.toml"
-  # "~/.config/alacritty/catppuccin/catppuccin-macchiato.toml"
-  "~/.config/alacritty/catppuccin/catppuccin-mocha.toml"
+	# "~/.config/alacritty/catppuccin/catppuccin-latte.toml"
+	# "~/.config/alacritty/catppuccin/catppuccin-frappe.toml"
+	# "~/.config/alacritty/catppuccin/catppuccin-macchiato.toml"
+	"~/.config/alacritty/catppuccin/catppuccin-mocha.toml",
 ]
 
 live_config_reload = true
@@ -17,192 +17,101 @@ unfocused_hollow = true
 [env]
 TERM = "xterm-256color"
 
-[[keyboard.bindings]]
-action = "Hide"
-key = "H"
-mods = "Command"
-
-[[keyboard.bindings]]
-action = "Quit"
-key = "Q"
-mods = "Command"
-
-[[keyboard.bindings]]
-action = "Paste"
-key = "V"
-mods = "Command"
-
-[[keyboard.bindings]]
-action = "Copy"
-key = "C"
-mods = "Command"
-
-[[keyboard.bindings]]
-action = "ResetFontSize"
-key = "Key0"
-mods = "Command"
-
-[[keyboard.bindings]]
-action = "IncreaseFontSize"
-key = "Equals"
-mods = "Command"
-
-[[keyboard.bindings]]
-action = "DecreaseFontSize"
-key = "Minus"
-mods = "Command"
-
-[[keyboard.bindings]]
-key = "K"
-mods = "Command"
-
-[keyboard.bindings.command]
-args = ["action", "clear"]
-program = "/opt/homebrew/bin/zellij"
-
-[[keyboard.bindings]]
-key = "F"
-mods = "Command"
-
-[keyboard.bindings.command]
-args = ["action", "search"]
-program = "/opt/homebrew/bin/zellij"
-
-[[keyboard.bindings]]
-key = "LBracket"
-mods = "Command"
-
-[keyboard.bindings.command]
-args = ["action", "focus-previous-pane"]
-program = "/opt/homebrew/bin/zellij"
-
-[[keyboard.bindings]]
-key = "RBracket"
-mods = "Command"
-
-[keyboard.bindings.command]
-args = ["action", "focus-next-pane"]
-program = "/opt/homebrew/bin/zellij"
-
-[[keyboard.bindings]]
-key = "T"
-mods = "Alt"
-
-[keyboard.bindings.command]
-args = ["action", "new-pane"]
-program = "/opt/homebrew/bin/zellij"
-
-[[keyboard.bindings]]
-key = "D"
-mods = "Command"
-
-[keyboard.bindings.command]
-args = ["action", "new-pane"]
-program = "/opt/homebrew/bin/zellij"
-
-[[keyboard.bindings]]
-key = "W"
-mods = "Alt"
-
-[keyboard.bindings.command]
-args = ["action", "close-pane"]
-program = "/opt/homebrew/bin/zellij"
-
-[[keyboard.bindings]]
-key = "Return"
-mods = "Command|Shift"
-
-[keyboard.bindings.command]
-args = ["action", "toggle-fullscreen"]
-program = "/opt/homebrew/bin/zellij"
-
-[[keyboard.bindings]]
-key = "T"
-mods = "Command"
-
-[keyboard.bindings.command]
-args = ["action", "new-tab"]
-program = "/opt/homebrew/bin/zellij"
-
-[[keyboard.bindings]]
-key = "W"
-mods = "Command"
-
-[keyboard.bindings.command]
-args = ["action", "close-pane"]
-program = "/opt/homebrew/bin/zellij"
-
-[[keyboard.bindings]]
-key = "Key1"
-mods = "Command"
-
-[keyboard.bindings.command]
-args = ["action", "go-to-tab", "1"]
-program = "/opt/homebrew/bin/zellij"
-
-[[keyboard.bindings]]
-key = "Key2"
-mods = "Command"
-
-[keyboard.bindings.command]
-args = ["action", "go-to-tab", "2"]
-program = "/opt/homebrew/bin/zellij"
-
-[[keyboard.bindings]]
-key = "Key3"
-mods = "Command"
-
-[keyboard.bindings.command]
-args = ["action", "go-to-tab", "3"]
-program = "/opt/homebrew/bin/zellij"
-
-[[keyboard.bindings]]
-key = "Key4"
-mods = "Command"
-
-[keyboard.bindings.command]
-args = ["action", "go-to-tab", "4"]
-program = "/opt/homebrew/bin/zellij"
-
-[[keyboard.bindings]]
-key = "Key5"
-mods = "Command"
-
-[keyboard.bindings.command]
-args = ["action", "go-to-tab", "5"]
-program = "/opt/homebrew/bin/zellij"
-
-[[keyboard.bindings]]
-key = "Key6"
-mods = "Command"
-
-[keyboard.bindings.command]
-args = ["action", "go-to-tab", "6"]
-program = "/opt/homebrew/bin/zellij"
-
-[[keyboard.bindings]]
-key = "Key7"
-mods = "Command"
-
-[keyboard.bindings.command]
-args = ["action", "go-to-tab", "7"]
-program = "/opt/homebrew/bin/zellij"
-
-[[keyboard.bindings]]
-key = "Key8"
-mods = "Command"
-
-[keyboard.bindings.command]
-args = ["action", "go-to-tab", "8"]
-program = "/opt/homebrew/bin/zellij"
-
-[[keyboard.bindings]]
-key = "Key9"
-mods = "Command"
-
-[keyboard.bindings.command]
-args = ["action", "go-to-tab", "9"]
-program = "/opt/homebrew/bin/zellij"
+[keyboard]
+bindings = [
+	{ key = "H", mods = "Command", action = "Hide" },
+	{ key = "Q", mods = "Command", action = "Quit" },
+	{ key = "V", mods = "Command", action = "Paste" },
+	{ key = "C", mods = "Command", action = "Copy" },
+	{ key = "Key0", mods = "Command", action = "ResetFontSize" },
+	{ key = "Equals", mods = "Command", action = "IncreaseFontSize" },
+	{ key = "Minus", mods = "Command", action = "DecreaseFontSize" },
+	{ key = "K", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
+		"action",
+		"clear",
+	] } },
+	{ key = "F", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
+		"action",
+		"search",
+	] } },
+	{ key = "LBracket", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
+		"action",
+		"focus-previous-pane",
+	] } },
+	{ key = "RBracket", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
+		"action",
+		"focus-next-pane",
+	] } },
+	{ key = "T", mods = "Alt", command = { program = "/opt/homebrew/bin/zellij", args = [
+		"action",
+		"new-pane",
+	] } },
+	{ key = "D", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
+		"action",
+		"new-pane",
+	] } },
+	{ key = "W", mods = "Alt", command = { program = "/opt/homebrew/bin/zellij", args = [
+		"action",
+		"close-pane",
+	] } },
+	{ key = "Return", mods = "Command|Shift", command = { program = "/opt/homebrew/bin/zellij", args = [
+		"action",
+		"toggle-fullscreen",
+	] } },
+	{ key = "T", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
+		"action",
+		"new-tab",
+	] } },
+	{ key = "W", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
+		"action",
+		"close-pane",
+	] } },
+	{ key = "Key1", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
+		"action",
+		"go-to-tab",
+		"1",
+	] } },
+	{ key = "Key2", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
+		"action",
+		"go-to-tab",
+		"2",
+	] } },
+	{ key = "Key3", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
+		"action",
+		"go-to-tab",
+		"3",
+	] } },
+	{ key = "Key4", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
+		"action",
+		"go-to-tab",
+		"4",
+	] } },
+	{ key = "Key5", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
+		"action",
+		"go-to-tab",
+		"5",
+	] } },
+	{ key = "Key6", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
+		"action",
+		"go-to-tab",
+		"6",
+	] } },
+	{ key = "Key7", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
+		"action",
+		"go-to-tab",
+		"7",
+	] } },
+	{ key = "Key8", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
+		"action",
+		"go-to-tab",
+		"8",
+	] } },
+	{ key = "Key9", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
+		"action",
+		"go-to-tab",
+		"9",
+	] } },
+]
 
 [scrolling]
 history = 10000
@@ -219,7 +128,7 @@ program = "/opt/homebrew/bin/zellij"
 [window]
 decorations = "buttonless"
 dynamic_padding = false
-opacity = 0.9
+opacity = 1.0
 option_as_alt = "Both"
 
 [window.padding]
@@ -231,4 +140,4 @@ normal = { family = "CartographCF Nerd Font", style = "Regular" }
 bold = { family = "CartographCF Nerd Font", style = "Bold" }
 italic = { family = "CartographCF Nerd Font", style = "Italic" }
 bold_italic = { family = "CartographCF Nerd Font", style = "Bold Italic" }
-size = 20.0
+size = 16.0
