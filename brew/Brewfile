@@ -7,9 +7,11 @@ tap "buo/cask-upgrade"
 tap "homebrew/cask-fonts"
 
 brew "asdf"															# version manager
+brew "atuin"														# history
 brew "bat"															# cat replacement
 brew "bazelisk"													# bazel
 brew "bottom"														# top replacement
+brew "bruno"														# postman alternative
 # brew "carbonyl"													# browser
 brew "coreutils"												# coreutils
 brew "direnv"														# env management
@@ -52,8 +54,8 @@ brew "xh"																# curl replacement
 brew "yq"																# yaml parser
 brew "zellij"														# terminal multiplexer
 brew "zoxide"														# zsh plugin
+brew "zed"															# editor
 brew "lf"
-brew "atuin"														# history
 
 cask "arc"															# browser
 cask "1password"												# password manager
@@ -64,8 +66,6 @@ cask "figma"														# design
 cask "font-fira-code-nerd-font"					# font
 cask "font-jetbrains-mono-nerd-font"		# font
 cask "font-sauce-code-pro-nerd-font"		# font
-cask "fork"															# git ui
-cask "iterm2"														# terminal
 cask "notion"														# notes
 cask "qmk-toolbox"											# keyboard firmware
 cask "slack"														# communication
