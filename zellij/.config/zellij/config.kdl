@@ -159,6 +159,12 @@ keybinds {
         bind "Alt -" { Resize "Decrease"; }
         bind "Alt [" { PreviousSwapLayout; }
         bind "Alt ]" { NextSwapLayout; }
+				bind "Alt f" {
+            LaunchPlugin "filepicker" {
+                // floating true // uncomment this to have the filepicker opened in a floating window
+                close_on_selection true // comment this out to have the filepicker remain open even after selecting a file
+            };
+        }
     }
     shared_except "normal" "locked" {
         bind "Enter" "Esc" { SwitchToMode "Normal"; }
@@ -286,7 +292,7 @@ theme "catppuccin-mocha"
 // The name of the default layout to load on startup
 // Default: "default"
 //
-// default_layout "compact"
+default_layout "compact"
 
 // Choose the mode that zellij uses when starting up.
 // Default: normal
@@ -337,7 +343,7 @@ theme "catppuccin-mocha"
 // Path to the default editor to use to edit pane scrollbuffer
 // Default: $EDITOR or $VISUAL
 //
-// scrollback_editor "/usr/bin/vim"
+scrollback_editor "/opt/homebrew/bin/nvim"
 
 // When attaching to an existing session with other users,
 // should the session be mirrored (true)
