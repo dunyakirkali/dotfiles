@@ -1,7 +1,4 @@
 import = [
-	# "~/.config/alacritty/catppuccin/catppuccin-latte.toml"
-	# "~/.config/alacritty/catppuccin/catppuccin-frappe.toml"
-	# "~/.config/alacritty/catppuccin/catppuccin-macchiato.toml"
 	"~/.config/alacritty/catppuccin/catppuccin-mocha.toml",
 ]
 
@@ -32,7 +29,7 @@ bindings = [
 	] } },
 	{ key = "F", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
 		"action",
-		"search",
+		"edit-scrollback",
 	] } },
 	{ key = "LBracket", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
 		"action",
@@ -122,8 +119,8 @@ save_to_clipboard = true
 semantic_escape_chars = "|:\"' {}()[]<>"
 
 [shell]
-args = ["a", "dTerm"]
-program = "/opt/homebrew/bin/zellij"
+args = ["-l", "-c", "zellij attach --index 0 || zellij"]
+program = "/bin/zsh"
 
 [window]
 decorations = "buttonless"
