@@ -34,7 +34,6 @@ brew "lazygit"													# git ui
 brew "magic-wormhole"										# file transfer
 brew "mas"															# mac app store cli
 brew "neo4j"														# graph database
-brew "neofetch"													# system information
 brew "neovim"														# vim replacement
 brew "openssl"													# openssl
 brew "procs"														# ps replacement
@@ -46,7 +45,6 @@ brew "sd"																# sed replacement
 brew "starship"													# prompt
 brew "stow"															# symlink manager
 brew "subversion"												# subversion
-brew "terraform"												# infrastructure as code
 brew "tldr"															# man replacement
 brew "tmux"															# terminal multiplexer
 brew "tokei"														# cloc replacement
