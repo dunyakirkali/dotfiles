@@ -38,6 +38,7 @@ alias vim="nvim"
 
 export PATH="/opt/homebrew/bin:$PATH"
 export TERM_PROGRAM="/opt/homebrew/bin/alacritty"
+export FLUTTER_ROOT="$(asdf where flutter)"
 
 source <(fzf --zsh)
 eval "$(atuin init zsh)"
