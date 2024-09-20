@@ -23,89 +23,78 @@ bindings = [
 	{ key = "Key0", mods = "Command", action = "ResetFontSize" },
 	{ key = "Equals", mods = "Command", action = "IncreaseFontSize" },
 	{ key = "Minus", mods = "Command", action = "DecreaseFontSize" },
-	{ key = "K", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
-		"action",
-		"clear",
+	{ key = "K", mods = "Command", command = { program = "/opt/homebrew/bin/tmux", args = [
+		"send-keys",
+		"C-l",
 	] } },
-	{ key = "F", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
-		"action",
-		"edit-scrollback",
+	{ key = "F", mods = "Command", command = { program = "/opt/homebrew/bin/tmux", args = [
+		"copy-mode",
 	] } },
-	{ key = "LBracket", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
-		"action",
-		"focus-previous-pane",
+	{ key = "LBracket", mods = "Command", command = { program = "/opt/homebrew/bin/tmux", args = [
+		"select-pane",
+		"-L",
 	] } },
-	{ key = "RBracket", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
-		"action",
-		"focus-next-pane",
+	{ key = "RBracket", mods = "Command", command = { program = "/opt/homebrew/bin/tmux", args = [
+		"select-pane",
+		"-R",
 	] } },
-	{ key = "T", mods = "Alt", command = { program = "/opt/homebrew/bin/zellij", args = [
-		"action",
-		"new-pane",
+	{ key = "D", mods = "Command", command = { program = "/opt/homebrew/bin/tmux", args = [
+		"split-window",
+		"-h",
 	] } },
-	{ key = "D", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
-		"action",
-		"new-pane",
+	{ key = "Return", mods = "Command|Shift", command = { program = "/opt/homebrew/bin/tmux", args = [
+		"resize-pane",
+		"-Z",
 	] } },
-	{ key = "W", mods = "Alt", command = { program = "/opt/homebrew/bin/zellij", args = [
-		"action",
-		"close-pane",
+	{ key = "T", mods = "Command", command = { program = "/opt/homebrew/bin/tmux", args = [
+		"new-window",
 	] } },
-	{ key = "Return", mods = "Command|Shift", command = { program = "/opt/homebrew/bin/zellij", args = [
-		"action",
-		"toggle-fullscreen",
+	{ key = "W", mods = "Command", command = { program = "/opt/homebrew/bin/tmux", args = [
+		"kill-pane",
 	] } },
-	{ key = "T", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
-		"action",
-		"new-tab",
-	] } },
-	{ key = "W", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
-		"action",
-		"close-pane",
-	] } },
-	{ key = "Key1", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
-		"action",
-		"go-to-tab",
+	{ key = "Key1", mods = "Command", command = { program = "/opt/homebrew/bin/tmux", args = [
+		"select-window",
+		"-t",
 		"1",
 	] } },
-	{ key = "Key2", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
-		"action",
-		"go-to-tab",
+	{ key = "Key2", mods = "Command", command = { program = "/opt/homebrew/bin/tmux", args = [
+		"select-window",
+		"-t",
 		"2",
 	] } },
-	{ key = "Key3", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
-		"action",
-		"go-to-tab",
+	{ key = "Key3", mods = "Command", command = { program = "/opt/homebrew/bin/tmux", args = [
+		"select-window",
+		"-t",
 		"3",
 	] } },
-	{ key = "Key4", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
-		"action",
-		"go-to-tab",
+	{ key = "Key4", mods = "Command", command = { program = "/opt/homebrew/bin/tmux", args = [
+		"select-window",
+		"-t",
 		"4",
 	] } },
-	{ key = "Key5", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
-		"action",
-		"go-to-tab",
+	{ key = "Key5", mods = "Command", command = { program = "/opt/homebrew/bin/tmux", args = [
+		"select-window",
+		"-t",
 		"5",
 	] } },
-	{ key = "Key6", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
-		"action",
-		"go-to-tab",
+	{ key = "Key6", mods = "Command", command = { program = "/opt/homebrew/bin/tmux", args = [
+		"select-window",
+		"-t",
 		"6",
 	] } },
-	{ key = "Key7", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
-		"action",
-		"go-to-tab",
+	{ key = "Key7", mods = "Command", command = { program = "/opt/homebrew/bin/tmux", args = [
+		"select-window",
+		"-t",
 		"7",
 	] } },
-	{ key = "Key8", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
-		"action",
-		"go-to-tab",
+	{ key = "Key8", mods = "Command", command = { program = "/opt/homebrew/bin/tmux", args = [
+		"select-window",
+		"-t",
 		"8",
 	] } },
-	{ key = "Key9", mods = "Command", command = { program = "/opt/homebrew/bin/zellij", args = [
-		"action",
-		"go-to-tab",
+	{ key = "Key9", mods = "Command", command = { program = "/opt/homebrew/bin/tmux", args = [
+		"select-window",
+		"-t",
 		"9",
 	] } },
 ]
@@ -119,7 +108,7 @@ save_to_clipboard = true
 semantic_escape_chars = "|:\"' {}()[]<>"
 
 [shell]
-args = ["-l", "-c", "zellij attach --index 0 || zellij"]
+args = ["-i", "-c", "tmux"]
 program = "/bin/zsh"
 
 [window]
