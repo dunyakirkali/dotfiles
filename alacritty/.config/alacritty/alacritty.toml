@@ -97,6 +97,14 @@ bindings = [
 		"-t",
 		"9",
 	] } },
+	{ key = "LBracket", mods = "Control|Option|Shift|Command", command = { program = "/opt/homebrew/bin/tmux", args = [
+		"switch-client",
+		"-p",
+	] } },
+	{ key = "RBracket", mods = "Control|Option|Shift|Command", command = { program = "/opt/homebrew/bin/tmux", args = [
+		"switch-client",
+		"-n",
+	] } },
 ]
 
 [scrolling]
