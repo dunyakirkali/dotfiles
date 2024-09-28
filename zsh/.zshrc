@@ -34,9 +34,6 @@ alias vim="nvim"
     . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
  fi
 
- . /opt/homebrew/opt/asdf/libexec/asdf.sh
-
-export PATH="/opt/homebrew/bin:$PATH"
 export TERM_PROGRAM="/opt/homebrew/bin/alacritty"
 export FLUTTER_ROOT="$(asdf where flutter)"
 
