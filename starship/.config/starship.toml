@@ -1,6 +1,21 @@
 command_timeout = 5000
 palette = "catppuccin_mocha"
 
+[git_branch]
+disabled = true
+
+[git_commit]
+disabled = true
+
+[git_state]
+disabled = true
+
+[git_status]
+disabled = true
+
+[git_metrics]
+disabled = true
+
 [battery]
 disabled = true
 
