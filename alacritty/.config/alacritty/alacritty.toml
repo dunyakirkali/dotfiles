@@ -22,8 +22,7 @@ bindings = [
 	{ key = "Equals", mods = "Command", action = "IncreaseFontSize" },
 	{ key = "Minus", mods = "Command", action = "DecreaseFontSize" },
 	{ key = "K", mods = "Command", command = { program = "/opt/homebrew/bin/tmux", args = [
-		"send-keys",
-		"C-l",
+		"clear-history",
 	] } },
 	{ key = "F", mods = "Command", command = { program = "/opt/homebrew/bin/tmux", args = [
 		"copy-mode",
