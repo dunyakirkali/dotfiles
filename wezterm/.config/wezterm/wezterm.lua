@@ -58,6 +58,11 @@ config.keys = {
 		mods = "SUPER|CTRL|ALT|SHIFT",
 		action = wezterm.action.ShowLauncherArgs({ flags = "FUZZY|WORKSPACES" }),
 	},
+	{
+		key = "k",
+		mods = "SUPER",
+		action = wezterm.action.ClearScrollback("ScrollbackAndViewport"),
+	},
 }
 
 return config
