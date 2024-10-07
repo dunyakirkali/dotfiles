@@ -57,7 +57,6 @@ brew "lf"
 cask "zed"															# editor
 cask "arc"															# browser
 cask "1password"												# password manager
-cask "alacritty"												# terminal
 cask "docker"														# container manager
 cask "kreya"														# postman for rpc
 cask "figma"														# design
