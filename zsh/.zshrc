@@ -28,6 +28,7 @@ alias mt="mix test --trace"
 alias mf="mix format"
 alias lg="lazygit"
 alias vim="nvim"
+alias cat="bat"
 
 # Nix
  if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
