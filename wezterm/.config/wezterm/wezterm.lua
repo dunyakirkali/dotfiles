@@ -2,6 +2,8 @@ local wezterm = require("wezterm")
 
 config = wezterm.config_builder()
 
+config.scrollback_lines = 1000000
+
 config = {
 	automatically_reload_config = true,
 	window_close_confirmation = "NeverPrompt",
