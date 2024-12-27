@@ -30,11 +30,6 @@ alias lg="lazygit"
 alias vim="nvim"
 alias cat="bat"
 
-# Nix
- if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
-    . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
- fi
-
 export TERM_PROGRAM="/opt/homebrew/bin/alacritty"
 export FLUTTER_ROOT="$(asdf where flutter)"
 
