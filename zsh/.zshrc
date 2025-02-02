@@ -1,7 +1,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-plugins=(git asdf brew direnv fzf zoxide starship dotenv)
+plugins=(git asdf brew fzf zoxide starship dotenv)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -26,12 +26,14 @@ alias zz="z -"
 alias cat="bat --plain --wrap character"
 alias mt="mix test --trace"
 alias mf="mix format"
-alias lg="lazygit"
+alias g="lazygit"
 alias vim="nvim"
 alias cat="bat"
+alias e="zed ."
+alias nv="nvim ."
 
-export TERM_PROGRAM="/opt/homebrew/bin/alacritty"
-export FLUTTER_ROOT="$(asdf where flutter)"
+export PATH=$PATH:/usr/local/bin
 
 source <(fzf --zsh)
 eval "$(atuin init zsh)"
+
