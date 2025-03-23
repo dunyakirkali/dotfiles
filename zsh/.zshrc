@@ -26,13 +26,13 @@ alias zz="z -"
 alias cat="bat --plain --wrap character"
 alias mt="mix test --trace"
 alias mf="mix format"
-alias g="lazygit"
+alias lg="lazygit"
 alias vim="nvim"
-alias cat="bat"
-alias e="zed ."
+alias ze="zed ."
 alias nv="nvim ."
 
 export PATH=$PATH:/usr/local/bin
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 source <(fzf --zsh)
 eval "$(atuin init zsh)"
