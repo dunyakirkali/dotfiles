@@ -30,6 +30,7 @@ alias lg="lazygit"
 alias vim="nvim"
 alias ze="zed ."
 alias nv="nvim ."
+alias nm="noemutt"
 
 export PATH=$PATH:/usr/local/bin
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"

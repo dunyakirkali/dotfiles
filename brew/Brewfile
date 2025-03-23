@@ -53,6 +53,8 @@ brew "yq"																# yaml parser
 brew "zellij"														# terminal multiplexer
 brew "zoxide"														# zsh plugin
 brew "lf"
+brew "1password-cli"
+brew "mutt"
 
 cask "zed"															# editor
 cask "arc"															# browser
