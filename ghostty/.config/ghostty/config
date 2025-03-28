@@ -1,7 +1,9 @@
-theme = light:catppuccin-latte,dark:catppuccin-mocha
+theme = catppuccin-mocha
 
 font-family=CartographCF Nerd Font
 font-size=16
 cursor-style=block
 cursor-style-blink=true
 macos-titlebar-style=tabs
+background-opacity=0.8
+background-blur=true
