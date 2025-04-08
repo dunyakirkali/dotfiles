@@ -9,7 +9,7 @@ tap "homebrew/cask-fonts"
 brew "asdf"															# version manager
 brew "atuin"														# history
 brew "bat"															# cat replacement
-brew "bazelisk"													# bazel
+# brew "bazelisk"													# bazel
 brew "bottom"														# top replacement
 brew "bruno"														# postman alternative
 # brew "carbonyl"													# browser
@@ -46,15 +46,16 @@ brew "starship"													# prompt
 brew "stow"															# symlink manager
 brew "subversion"												# subversion
 brew "tldr"															# man replacement
-brew "tmux"															# terminal multiplexer
+# brew "tmux"															# terminal multiplexer
 brew "tokei"														# cloc replacement
 brew "xh"																# curl replacement
 brew "yq"																# yaml parser
-brew "zellij"														# terminal multiplexer
+# brew "zellij"														# terminal multiplexer
 brew "zoxide"														# zsh plugin
 brew "lf"
 brew "1password-cli"
 brew "mutt"
+brew "karabiner-elements"
 
 cask "zed"															# editor
 cask "arc"															# browser
@@ -66,12 +67,13 @@ cask "font-fira-code-nerd-font"					# font
 cask "font-jetbrains-mono-nerd-font"		# font
 cask "font-sauce-code-pro-nerd-font"		# font
 cask "notion"														# notes
-cask "qmk-toolbox"											# keyboard firmware
+# cask "qmk-toolbox"											# keyboard firmware
 cask "slack"														# communication
 cask "sloth"														# network monitor
 cask "visual-studio-code"								# editor
 cask "vlc"															# media player
 cask "telegram"													# telegram client
 cask "whatsapp"													# whatsapp client
-cask "raycast"
+cask "raycast"													# spotlight
+
 
