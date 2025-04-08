@@ -4,14 +4,12 @@ cask_args appdir: '~/Applications', require_sha: true
 # Taps
 tap "homebrew/bundle"
 tap "buo/cask-upgrade"
-tap "homebrew/cask-fonts"
 
 brew "asdf"															# version manager
 brew "atuin"														# history
 brew "bat"															# cat replacement
 # brew "bazelisk"													# bazel
 brew "bottom"														# top replacement
-brew "bruno"														# postman alternative
 # brew "carbonyl"													# browser
 brew "coreutils"												# coreutils
 brew "direnv"														# env management
@@ -53,9 +51,7 @@ brew "yq"																# yaml parser
 # brew "zellij"														# terminal multiplexer
 brew "zoxide"														# zsh plugin
 brew "lf"
-brew "1password-cli"
 brew "mutt"
-brew "karabiner-elements"
 
 cask "zed"															# editor
 cask "arc"															# browser
@@ -75,5 +71,6 @@ cask "vlc"															# media player
 cask "telegram"													# telegram client
 cask "whatsapp"													# whatsapp client
 cask "raycast"													# spotlight
-
-
+cask "karabiner-elements"
+cask "1password-cli"
+cask "bruno"														# postman alternative
