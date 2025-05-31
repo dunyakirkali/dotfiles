@@ -52,10 +52,10 @@ brew "lf"
 brew "mutt"
 
 cask "zed"															# editor
-cask "arc"															# browser
+# cask "arc"															# browser
 cask "1password"												# password manager
 cask "docker"														# container manager
-cask "kreya"														# postman for rpc
+# cask "kreya"														# postman for rpc
 cask "figma"														# design
 cask "font-fira-code-nerd-font"					# font
 cask "font-jetbrains-mono-nerd-font"		# font
