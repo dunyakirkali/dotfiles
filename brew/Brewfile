@@ -2,7 +2,6 @@
 cask_args appdir: '~/Applications', require_sha: true
 
 # Taps
-tap "homebrew/bundle"
 tap "buo/cask-upgrade"
 
 brew "asdf"															# version manager
