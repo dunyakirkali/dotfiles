@@ -35,7 +35,6 @@ brew "neovim"														# vim replacement
 brew "openssl"													# openssl
 brew "procs"														# ps replacement
 brew "protobuf"													# protocol buffers
-brew "qmk"															# keyboard firmware
 brew "ripgrep"													# grep replacement
 brew "scc"															# count lines of code
 brew "sd"																# sed replacement
