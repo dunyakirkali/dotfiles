@@ -72,3 +72,4 @@ cask "raycast"													# spotlight
 cask "karabiner-elements"
 cask "1password-cli"
 cask "bruno"														# postman alternative
+cask "ghostty"
