@@ -50,6 +50,7 @@ brew "yq"																# yaml parser
 brew "zoxide"														# zsh plugin
 brew "lf"
 brew "mutt"
+brew "zoxide"
 
 cask "zed"															# editor
 # cask "arc"															# browser
