@@ -22,6 +22,8 @@ And install all cags
 brew bundle install
 ```
 
+Then install [oh-my-zsh](https://ohmyz.sh/#install)
+
 Then we will start stowing the bits and pieces we need
 
 ```sh
