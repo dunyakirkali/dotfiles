@@ -8,13 +8,22 @@ If you want to use stow, clone this repository into `~/dotfiles` and do
 
 ## Usage
 
+First install [homebrew](https://brew.sh)
+
+Then stow the brewfile
+
 ```sh
-cd ~/path/to/dotfiles
-stow --target=$HOME --restow */
+TODO
 ```
 
-Then you can install the homebrew packages by doing
+And install all cags
 
 ```sh
 brew bundle install
+```
+
+Then we will start stowing the bits and pieces we need
+
+```sh
+TODO
 ```
