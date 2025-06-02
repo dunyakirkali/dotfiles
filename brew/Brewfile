@@ -70,6 +70,7 @@ cask "vlc"															# media player
 cask "telegram"													# telegram client
 cask "whatsapp"													# whatsapp client
 cask "raycast"													# spotlight
+cask "vlc"
 cask "karabiner-elements"
 cask "1password-cli"
 cask "bruno"														# postman alternative
