@@ -1,9 +1,9 @@
-theme = catppuccin-mocha
+theme = catppuccin-mocha.conf
 
 font-family=CartographCF Nerd Font
 font-size=16
 cursor-style=block
 cursor-style-blink=true
 macos-titlebar-style=tabs
-background-opacity=0.8
+background-opacity=0.95
 background-blur=true
