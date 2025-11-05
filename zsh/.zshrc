@@ -31,6 +31,7 @@ alias vim="nvim"
 alias ze="zed ."
 alias nv="nvim ."
 alias nm="noemutt"
+alias be="bundle exec"
 
 export PATH=$PATH:/usr/local/bin
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
@@ -38,3 +39,4 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 source <(fzf --zsh)
 eval "$(atuin init zsh)"
 
+export PATH="/opt/homebrew/opt/libpng/bin:$PATH"
