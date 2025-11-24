@@ -1,5 +1,4 @@
-theme = catppuccin-mocha.conf
-
+theme = dark:"Catppuccin Mocha",light:"Catppuccin Latte"
 font-family=CartographCF Nerd Font
 font-size=16
 cursor-style=block
