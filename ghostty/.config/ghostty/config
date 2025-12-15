@@ -6,3 +6,4 @@ cursor-style-blink=true
 macos-titlebar-style=tabs
 background-opacity=0.95
 background-blur=true
+scrollback-limit = 100000000
