@@ -11,4 +11,17 @@
 	required = true
 	clean = git-lfs clean -- %f
 [pull]
-  rebase = false
+  rebase = true
+[credential "https://github.com"]
+	helper =
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper =
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[init]
+	defaultBranch = main
+[diff]
+	algorithm = histogram
+[push]
+	autoSetupRemote = true
+	followTags = true
