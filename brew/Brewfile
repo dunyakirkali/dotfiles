@@ -53,25 +53,25 @@ brew "mutt"
 brew "zoxide"
 brew "mole"
 
-cask "zed"															# editor
-# cask "arc"															# browser
+cask "arc"															# browser
 cask "1password"												# password manager
+cask "1password-cli"
+cask "bruno"														# postman alternative
 cask "docker"														# container manager
-# cask "kreya"														# postman for rpc
 cask "figma"														# design
 cask "font-fira-code-nerd-font"					# font
 cask "font-jetbrains-mono-nerd-font"		# font
 cask "font-sauce-code-pro-nerd-font"		# font
+cask "ghostty"
+cask "keyclu"
+cask "kreya"														# postman for rpc
 cask "notion"														# notes
-# cask "qmk-toolbox"											# keyboard firmware
+cask "proxyman"
+cask "raycast"													# spotlight
 cask "slack"														# communication
 cask "sloth"														# network monitor
+cask "telegram"													# telegram client
 cask "visual-studio-code"								# editor
 cask "vlc"															# media player
-cask "telegram"													# telegram client
 cask "whatsapp"													# whatsapp client
-cask "raycast"													# spotlight
-cask "karabiner-elements"
-cask "1password-cli"
-cask "bruno"														# postman alternative
-cask "ghostty"
+cask "zed"															# editor
