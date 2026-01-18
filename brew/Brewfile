@@ -43,7 +43,7 @@ brew "magic-wormhole"										# file transfer
 brew "markdownlint-cli"
 brew "mas"															# mac app store cli
 brew "mole"
-brew "neo4j"														# graph database
+# brew "neo4j"														# graph database
 brew "neovim"														# vim replacement
 brew "openssl"													# openssl
 brew "pandoc"
@@ -77,9 +77,13 @@ cask "font-sauce-code-pro-nerd-font"		# font
 cask "ghostty"
 cask "keyclu"
 cask "kreya"														# postman for rpc
+cask "musescore"
+cask "neo4j-desktop"
 cask "notion"														# notes
+cask "passepartout"
 cask "proxyman"
 cask "raycast"													# spotlight
+cask "rstudio"
 cask "slack"														# communication
 cask "sloth"														# network monitor
 cask "telegram"													# telegram client
