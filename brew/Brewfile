@@ -4,6 +4,7 @@ cask_args appdir: '~/Applications', require_sha: true
 # Taps
 tap "buo/cask-upgrade"
 
+# brew "act"                              # Local GitHub CLI
 brew "asdf"															# version manager
 brew "atuin"														# history
 brew "bat"															# cat replacement
@@ -11,10 +12,16 @@ brew "bat"															# cat replacement
 brew "bottom"														# top replacement
 # brew "carbonyl"													# browser
 brew "coreutils"												# coreutils
+brew "colima"
 brew "direnv"														# env management
+# brew "docker"
+brew "duckdb"
 brew "dust"															# du replacement
+brew "epubcheck"
+brew "exiftool"
 brew "eza"															# ls replacement
 brew "fd"																# find replacement
+brew "flyctl"
 brew "fzf"															# fuzzy finder
 brew "gh"																# github cli
 brew "git"															# git
@@ -26,18 +33,27 @@ brew "grep"															# grep
 brew "htop"															# top replacement
 brew "httpie"														# curl replacement
 brew "hyperfine"												# time replacement
+brew "iperf3"
+brew "jj"
 brew "jq"																# json parser
 brew "lazygit"													# git ui
+brwe "lf"
+brew "llvm"
 brew "magic-wormhole"										# file transfer
+brew "markdownlint-cli"
 brew "mas"															# mac app store cli
+brew "mole"
 brew "neo4j"														# graph database
 brew "neovim"														# vim replacement
 brew "openssl"													# openssl
+brew "pandoc"
 brew "procs"														# ps replacement
 brew "protobuf"													# protocol buffers
 brew "ripgrep"													# grep replacement
 brew "scc"															# count lines of code
 brew "sd"																# sed replacement
+brew "shellcheck"
+brew "sqlite"
 brew "starship"													# prompt
 brew "stow"															# symlink manager
 brew "subversion"												# subversion
@@ -48,16 +64,12 @@ brew "xh"																# curl replacement
 brew "yq"																# yaml parser
 # brew "zellij"														# terminal multiplexer
 brew "zoxide"														# zsh plugin
-brew "lf"
-brew "mutt"
-brew "zoxide"
-brew "mole"
 
 cask "arc"															# browser
 cask "1password"												# password manager
 cask "1password-cli"
 cask "bruno"														# postman alternative
-cask "docker"														# container manager
+# cask "docker"														# container manager
 cask "figma"														# design
 cask "font-fira-code-nerd-font"					# font
 cask "font-jetbrains-mono-nerd-font"		# font
