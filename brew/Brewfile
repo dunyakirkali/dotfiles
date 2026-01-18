@@ -51,6 +51,7 @@ brew "zoxide"														# zsh plugin
 brew "lf"
 brew "mutt"
 brew "zoxide"
+brew "mole"
 
 cask "zed"															# editor
 # cask "arc"															# browser
